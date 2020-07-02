@@ -142,17 +142,18 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
-    { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
+    { text: '🍆', value: 'http://twemoji.maxcdn.com/2/72x72/1f346.png' },
+    { text: '🤑', value: 'http://twemoji.maxcdn.com/2/72x72/1f911.png' },
+    { text: '🎙', value: 'http://twemoji.maxcdn.com/2/72x72/1f399.png' },
+    { text: '🐱', value: 'http://twemoji.maxcdn.com/2/72x72/1f431.png' },
+    { text: '🍣', value: 'http://twemoji.maxcdn.com/2/72x72/1f363.png' },
+    { text: '🍺', value: 'http://twemoji.maxcdn.com/2/72x72/1f37a.png' },
+    { text: '🧠', value: 'http://twemoji.maxcdn.com/2/72x72/1f9e0.png' },
+    { text: '🤯', value: 'http://twemoji.maxcdn.com/2/72x72/1f92f.png' },
+    { text: '✊🏿', value: 'http://twemoji.maxcdn.com/2/72x72/1f3ff.png' }
 ];
 
-const imageDarkOptions: DropdownOption[] = [
-
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
-    { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
-];
+const imageDarkOptions = imageLightOptions;
 
 const widthOptions = [
     { text: 'width', value: 'auto' },
